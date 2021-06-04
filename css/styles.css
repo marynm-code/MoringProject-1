@@ -1,0 +1,9 @@
+.important {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    float: left;
+    padding: 400;
+    text-align: justify;
+    text-decoration-color: blue;
+    background: blue;
+}
