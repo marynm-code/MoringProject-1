@@ -2,8 +2,40 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     float: left;
-    padding: 400;
+    padding: 50;
     text-align: justify;
     text-decoration-color: blue;
     background: blue;
+}
+
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40;
+}
+
+.img {
+    padding: auto;
+    max-width: 40;
+}
+
+#div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    padding-left: 40;
+    max-width: 30;
+    font-size: 900;
+}
+
+h1 {
+    font-size: 1090;
+    font-family: fantasy;
+    padding-left: 20;
+    float: center;
+}
+
+.important {
+    font-size: xx-large;
+    font-family: fantasy;
+    font-style: normal;
+    background-color: brown;
 }
