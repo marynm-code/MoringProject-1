@@ -6,36 +6,43 @@
     text-align: justify;
     text-decoration-color: blue;
     background: blue;
+    .p background
 }
 
+color: cream;
+
+}
 .nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 40;
+    flex-direction: row;
+    float: initial;
 }
-
 .img {
     padding: auto;
     max-width: 40;
 }
-
-#div {
+.paragraph {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: blue;
     padding-left: 40;
+    margin: 40;
+    column-width: 60;
     max-width: 30;
     font-size: 900;
 }
-
 h1 {
     font-size: 1090;
+    box-sizing: 100;
     font-family: fantasy;
     padding-left: 20;
     float: center;
 }
-
 .important {
     font-size: xx-large;
     font-family: fantasy;
     font-style: normal;
     background-color: brown;
+}
+.p {
+    text-align: center;
 }
