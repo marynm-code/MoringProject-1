@@ -36,13 +36,15 @@ h1 {
     font-family: fantasy;
     padding-left: 20;
     float: center;
+    color: lawngreen;
 }
 .important {
     font-size: xx-large;
     font-family: fantasy;
     font-style: normal;
     background-color: brown;
+    text-overflow: ellipsis;
 }
-.p {
-    text-align: center;
+body {
+    background-color: white;
 }
