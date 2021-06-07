@@ -38,6 +38,10 @@ h1 {
     float: center;
     color: lawngreen;
 }
+h2 {
+    color: tomato;
+    font-size: 2000;
+}
 .important {
     font-size: xx-large;
     font-family: fantasy;
@@ -46,5 +50,5 @@ h1 {
     text-overflow: ellipsis;
 }
 body {
-    background-color: white;
+    background: white url("img_tree.gif") no-repeat fixed center;
 }
