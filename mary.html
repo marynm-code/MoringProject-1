@@ -20,18 +20,19 @@
         /* Style the header */
         
         header {
-            background-color: #666;
+            background-color: white;
             padding: 30px;
             text-align: center;
-            font-size: 35px;
+            font-size: 100px;
             color: white;
+            height: fit-content;
         }
         /* Create two columns/boxes that floats next to each other */
         
         nav {
-            float: left;
-            width: 30%;
-            height: 300px;
+            float: center;
+            width: 600%;
+            height: 100px;
             /* only for demonstration, should be removed */
             background: #ccc;
             padding: 20px;
@@ -44,12 +45,12 @@
         }
         
         article {
-            float: left;
+            float: right;
             padding: 20px;
             width: 70%;
-            background-color: #f1f1f1;
-            height: 300px;
-            /* only for demonstration, should be removed */
+            background-color: #d6d4c1;
+            height: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         /* Clear floats after the columns */
         
@@ -68,68 +69,80 @@
         }
         /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
         
-        @media (max-width: 600px) {
+        @media (max-width: 300px) {
             nav,
             article {
                 width: 100%;
-                height: auto;
+                height: 60%;
             }
         }
     </style>
 </head>
-<ul class="nav">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Hobbies</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li>
-</ul>
 <header>
     <h1>
         <div class="important">
             My Journey
+            </nav>
+        </div>
+        <img class="laptop" src="image/lap.png" alt="What revolves my world">
+    </h1>
 </header>
-</div>
-<img class="laptop" src="image/lap.png" alt="What revolves my world">
-</h1>
-<p>
-    <div class="paragraph">
-        Hi, welcome to my website am Mary the Codder. It is been an <span>exciting journey </span>so far, since i started this amazing path. I help business people grow their business by show casing them online which i believe its an awesome thing you
-        can ever do to your business. <br> I believe that we are <em>all heading there</em> considering the advasements of technology each and every day.
-    </div>
-</p>
-<h2>
+<section>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <p>
+            <div class="paragraph">
+                Hi, welcome to my website am Mary the Codder. It is been an <span>exciting journey </span>so far, since i started this amazing path. I help business people grow their business by show casing them online which i believe its an awesome thing
+                you can ever do to your business. <br> I believe that we are <em>all heading there</em> considering the advasements of technology each and every day.
+            </div>
+        </p>
+        <h2>
 
-    Here is a video.
-    <video width="400" controls>
+            Here is a video.
+            <video width="400" controls>
         <source src="mov_bbb.mp4" type="video/mp4">
         <source src="mov_bbb.ogg" type="video/ogg">
         Your browser does not support HTML video.
       </video>
-</h2>
-<p class="text-justify">
-    The video literally shows what i do when am alone.I do like pets and i enjoy the company of such animals.
-</p>
+        </h2>
+        <p class="text-justify">
+            The video literally shows what i do when am alone.I do like pets and i enjoy the company of such animals.
+        </p>
 
-<body>
-    <h3>Here are the 5 things people love about me</h3>
-    <p>My courage. Think of all the hardships you’ve been through. How else do you think you got through the tough times? <br> It certainly wasn’t because you got scared and buried your head in the sand. <br> And yes, it certainly wasn’t fun to, say, go
-        through unemployment or even a family loss, but think of how others looked up to you when you braved the stormy seas. Whether you realize it or not, you probably encouraged many others to become more courageous, just like you. <br> Being courageous
-        also means taking risks. Think that what you’ve done so far in life isn’t risky? Recall those times when you hopped on a plane to go on vacation to Thailand or other places where English isn’t the first language. Many people would be terrified
-        to do something like that.
-        <hr>
+        <body>
+            <h3>Here are the 5 things people love about me</h3>
+            <p>My courage. Think of all the hardships you’ve been through. How else do you think you got through the tough times? <br> It certainly wasn’t because you got scared and buried your head in the sand. <br> And yes, it certainly wasn’t fun to,
+                say, go through unemployment or even a family loss, but think of how others looked up to you when you braved the stormy seas. Whether you realize it or not, you probably encouraged many others to become more courageous, just like you.
+                <br> Being courageous also means taking risks. Think that what you’ve done so far in life isn’t risky? Recall those times when you hopped on a plane to go on vacation to Thailand or other places where English isn’t the first language.
+                Many people would be terrified to do something like that.
+                <hr>
+            </p>
+            <p> 2.My energy. You work harder and give your time to those you love a lot. Don’t even try to dispute that because you know it’s true! You’ve got so much enthusiasm that people feel more energetic just by being around you. <br> The way you talk,
+                the way you walk, it’s just so electrifying!
+                <hr>
+            </p>
+    </article>
+</section>
+<footer>
+    <p>
+        KINDLY CONTACT ME FOR MORE INFORMATION VIA MY EMAIL muthonim62@gmail.com.
     </p>
-    <p> 2.My energy. You work harder and give your time to those you love a lot. Don’t even try to dispute that because you know it’s true! You’ve got so much enthusiasm that people feel more energetic just by being around you. <br> The way you talk, the
-        way you walk, it’s just so electrifying!
-        <hr>
-    </p>
+</footer>
 </body>
 
 </html>
