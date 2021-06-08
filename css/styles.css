@@ -64,3 +64,11 @@ h2 {
     justify-content: space-around;
     margin: 10px;
 }
+
+.about1 {
+    font-size: 70px;
+    font-family: fantasy;
+    color: cadetblue;
+    background-color: chocolate;
+    float: left;
+}
