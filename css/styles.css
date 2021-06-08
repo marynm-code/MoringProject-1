@@ -29,10 +29,7 @@ img.left {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 10;
     margin: 30px;
-    column-width: 60%;
-    max-width: 40%;
     font-size: 20px;
-    height: 40;
 }
 
 h1 {
@@ -55,4 +52,14 @@ h2 {
     font-style: normal;
     background-color: brown;
     text-overflow: ellipsis;
+}
+
+.content1 {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
 }
